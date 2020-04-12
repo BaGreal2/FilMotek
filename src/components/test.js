@@ -184,7 +184,7 @@ fetcher(number).then(response => {
   
 let isSearch = false
 refs.home.classList = 'home active_button'
-
+//localStorage
 let searchValue;
 const searchClick = (e) => {
   number = 1
@@ -713,6 +713,7 @@ refs.main.addEventListener('click', modalClick)
 const modalExit = (e) => {
   refs.modal.classList = 'modal'
 }
+//closest
 refs.overlay.addEventListener('click', modalExit)
   let localArray = [];
   let localArray2 = [];
